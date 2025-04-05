@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>VS CODE</title>
+</head>
+<body style="background-color: #0d1117;">
+    <nav>
+<div style="display: flex;justify-content:space-around; padding-left: 70px;padding-right: 70px; padding-top: 10px;">
+    <div style="margin-right: 5px;">
+        <img style="width: 25px;height: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" alt="">
+    </div>
+    <div>
+         <a style="font-size: 20px;text-decoration: none; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;-webkit-text-fill-color: #c3d0e5;" target="_blank" href="https://code.visualstudio.com/">
+            <span>
+                <b>
+                Visual Studio Code
+                </b>
+            </span>
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration: none;-webkit-text-fill-color: #9ba3b4;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs">
+            Docs
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration: none;-webkit-text-fill-color: #9ba3b4;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/Updates">
+            Updates
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration: none;-webkit-text-fill-color: #9ba3b4;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/blogs">
+            Blog
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration: none;-webkit-text-fill-color: #9ba3b4;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/API">
+            API
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration: none;-webkit-text-fill-color: #9ba3b4;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/Extension">
+            Extension
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration: none;-webkit-text-fill-color: #9ba3b4;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/supporting/faq">
+            FAQ
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration: none; -webkit-text-fill-color: #9ba3b4;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/copilot/overview">
+            GitHub Copilot
+        </a>
+    </div>
+    <div style="display: flex;">
+        <div style="margin: 5px;">
+            <img src="https://code.visualstudio.com/assets/icons/theme-light.svg" alt="">
+        </div>
+    <div>
+        <input style="height: 25px;background-color:#0d1117;-webkit-text-fill-color:#9ba3b4;" type="search Docs" placeholder="Search Docs">
+        <a href="https://code.visualstudio.com/Download">
+            <button style="cursor: pointer; border-radius: 5px; width: 100px;height: 33px; font-size: 16px; background-color: #0078d4;border: #0078d4;-webkit-text-fill-color: #ffffff; ">
+                Download
+            </button>
+        </a>
+    </div>
+        </div>
+</div>
+    </nav>
+<p style="-webkit-text-fill-color: #9ba3b4;padding-left: 500px;font-size: 15px; padding-top: 7px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    🚀 Get
+    <a style="-webkit-text-fill-color:#4daafc;" href="vscode://github.copilot-chat?referrer=vscode-updatebanner">GitHub Copilot Free</a> 
+    in VS Code!
+</p>
+<h1 style="-webkit-text-fill-color:#c3d0e5;font-size: 70px;padding-left: 350px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+     Your code editor. <br>
+    <div style="position: relative;left: -20px;  -webkit-text-fill-color:#c3d0e5;font-size: 70px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        Redefined with AI.
+    </div>
+</h1>
+
+<div style="display: flex;justify-content: center;position: relative; top: -30px;">
+    <a href="https://code.visualstudio.com/Download">
+        <button style="cursor: pointer; border-radius: 5px; width: 220px;height: 50px; font-size: 18px; background-color: #0078d4;border: #0078d4;-webkit-text-fill-color: #ffffff; ">Download for Windows</button>    
+    </a>
+    <a style="margin-left: 7px;" href="vscode://github.copilot-chat?referrer=vscode-cta">
+        <button style="cursor: pointer; border-radius: 5px; width: 200px;height: 50px; font-size: 18px; background-color: #25292e; border:1px solid rgb(255 255 255 / 30%);-webkit-text-fill-color: #c3d0e5; ">
+            Get Copilot Free
+        </button>
+    </a>
+    </div>
+<div style="position: relative;top: -20px; display: flex;justify-content: center; -webkit-text-fill-color:#9ba3b4 ;font-size: 13px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <a style="-webkit-text-fill-color: #4daafc;" href="https://vscode.dev/">Web</a>
+    ,
+    <a style="margin-left: 3px; -webkit-text-fill-color: #4daafc;" href="https://code.visualstudio.com/insiders">Insider edition</a>
+    ,or
+    <a style="margin-left: 3px; -webkit-text-fill-color: #4daafc;" href="https://code.visualstudio.com/Download">other platforms</a>
+</div>
+<div>
+    <img style="position: relative;left: 80px;  width: 1100px;height: 770px ;border-radius: 8px;" src="https://code.visualstudio.com/assets/home/hero-background.webp" alt="">
+    <video style="display: block; border-radius: 6px; position: relative;top: -750px;left: 130px;" width="990px" height="700px" autoplay muted loop src="\100X class1\hero-dark-lg.webm"></video>
+    </video>
+</div> 
+<div style="height: 380px; padding-left: 40px ;padding-right: 40px; overflow: hidden; display: flex;justify-content:space-around;position: relative;top: -600px;align-items: stretch;">   
+    <div class="box-1 ka div" style="width: 350px;border: 1px solid rgba(255, 255, 255,0.12);border-radius: 10px;">
+    <div class="box-1 ke text ka div" style="padding-left: 18px;padding-top: 3px; background-color: rgba(255,255,255,0.04);-webkit-text-fill-color: #c3d0e5;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <h3><p style="font-size: 20px;">Choose the model that works for <br> you </p></h3>
+    <p style="-webkit-text-fill-color: #9fb1d1;">
+    Pick the model that works best for your <br>project and team, including GPT 4o and <br> Claude Sonnet.</p>
+
+    <br>
+        <img style="height: 190px;width: 290px;position: relative;top: -10px;" src="https://code.visualstudio.com/assets/home/choose-model-dark.webp" alt="">
+    
+    </div>
+    </div>
+        <div class="box-2 ka div" style="width: 350px;border: 1px solid rgba(255, 255, 255,0.12);border-radius: 10px;" >
+        <div style="padding-left: 18px;padding-top: 3px; background-color: rgba(255,255,255,0.04);-webkit-text-fill-color: #c3d0e5;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <h3><p>An expert on your codebase</p><br></h3>
+    <p style="-webkit-text-fill-color: #9fb1d1;position: relative;top: -50px;">Copilot locally indexes your codebase to <br>understand what's relevant and supplements <br>that context to interactions with Copilot.
+    <br></p>
+    <img style="height: 200px;width: 320px;position: relative;left: 1px;top: -40px;" src="https://code.visualstudio.com/assets/home/multi-file-dark.webp" alt="">
+        </div>
+        </div>
+    <div class="box-3 ka div" style="width: 350px; border: 1px solid rgba(255, 255, 255,0.12);border-radius: 10px;"  >
+        <div style="padding-left: 18px;padding-top: 3px; background-color: rgba(255,255,255,0.04);-webkit-text-fill-color: #c3d0e5;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <h3><p>Personalized to your needs</p></h3> <br>
+        <p style="-webkit-text-fill-color: #9fb1d1;position: relative;top: -50px;">Copilot works the way you do. <br>
+         Customize Copilot's prompts with <br>
+         details about your team's workflows, <br>
+          tools, and projects.</p>
+          <br>
+          <img style="height: 180px;width: 300px;position: relative;left: 1px;top: -60px;"   src="https://code.visualstudio.com/assets/home/instructions-dark.webp" alt="">
+        </div>
+    </div>
+</div>
+
+<div style="border-radius: 8px;border: 1px solid rgba(255, 255, 255,0.12); position: relative;top: -550px; overflow: hidden;margin-left: 57px;margin-right: 57px;padding-left: 20px;height: 180px; display: flex;justify-content: space-between;background-image: url('https://code.visualstudio.com/assets/home/copilot-free-banner-bg-dark.webp');background-size: cover;">
+    <div style="-webkit-text-stroke-color: aliceblue; -webkit-text-fill-color: aliceblue;position: relative;top: 45px;left: 20px; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        Activate Copilot Free <br>
+        in Visual Studio Code
+    </div>
+    <div style="-webkit-text-stroke-color: aliceblue; -webkit-text-fill-color: aliceblue;position: relative;top: 60px;right: 90px; font-size: 16px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        No trial. No credit card required. Just your GitHub account. <br>
+        <a style="margin-left: 7px;" href="vscode://github.copilot-chat?referrer=vscode-cta">
+            <button style="position: relative;top: 10px; right: 8px; cursor: pointer; border-radius: 5px; width: 150px;height: 35px; font-size: 15px; background-color: #25292e; border:1px solid rgb(255 255 255 / 30%);-webkit-text-fill-color: #c3d0e5; ">
+                Get Copilot Free
+            </button>
+        </a>
+    </div>
+</div>
+<div style="display: flex;justify-content: space-around;position: relative;top: -350px;">
+    <div>
+        <p style="-webkit-text-fill-color: #c3d0e5; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+           <b> Multi-file edits </b></p>
+        <p style="-webkit-text-fill-color: #9fb1d1;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                Describe what you want to build in natural <br>
+                language, and Copilot Edits takes care of <br> 
+                the rest. Copilot Edits makes changes across <br> 
+                files in your codebase with a UI designed <br> 
+                for rapid iteration. It's the fastest way to <br>
+                add new functionality to your apps.
+</p>
+<a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/copilot/chat/copilot-edits">Build with Copilot Edits</a>
+
+    </div>
+    <div>
+        <img style="position: relative;top: -100px;" height="500px" width="700px" src="https://code.visualstudio.com/assets/home/swimlane-chat-dark.webp" alt="">
+    </div>
+</div>
+
+
+<div style="display: flex;justify-content: space-around;position: relative;top: -250px;">
+    <div>
+        <p style="-webkit-text-fill-color: #c3d0e5; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+           <b> Code suggestions</b></p>
+        <p style="-webkit-text-fill-color: #9fb1d1;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Copilot predicts your next thought with <br>
+             Next Edit Suggestions. Use the Tab key to <br> 
+             accept AI-powered suggestions right in <br> 
+             your editor. Next Edit Suggestions will <br> 
+             intelligently suggest where and what to <br> 
+             change across your file based on the edits <br> 
+             you're making.
+</p>
+<a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/copilot/chat/copilot-edits">
+    Pair program with Copilot</a>
+
+    </div>
+    <div>
+        <img style="position: relative;top: -100px;" height="500px" width="700px" src="https://code.visualstudio.com/assets/home/swimlane-nes-dark.webp" alt="">
+    </div>
+</div>
+
+<div>
+    <div style="display: flex;justify-content: space-around;position: relative;top: -150px;">
+        <div>
+            <p style="-webkit-text-fill-color: #c3d0e5; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+               <b> Code with extensions</b></p>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                Extensions let you customize VS Code and  <br> 
+                Copilot with AI-powered features grounded <br>
+                securely in your team's data and workflows. <br>
+                Grab one from the gallery and add it to <br>
+                chat like @azure, or <a style="-webkit-text-fill-color:#4daafc" href="https://code.visualstudio.com/docs/copilot/copilot-extensibility-overview">build your own Copilot <br>
+                extension</a> to power your team's unique <br> 
+                scenarios.
+    </p>
+    
+        </div>
+
+        <div class="1 row" style=" display: grid;grid-template-columns: repeat(3,1fr);grid-template-rows: repeat(3,1fr); gap: 10px;">
+            <a  class="row-1" style="position: relative;top: -100px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">
+                <img style="position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/images/python-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 40px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;">Python</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;">Adds rich language <br>support for Python</p>
+                </div>
+            </a>
+
+            <a class="row-1"  style="position: relative;top: -100px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">
+                <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/images/stripe-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 40px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;">Stripe</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;">Build, test, and use <br> Stripe inside your <br> editor</p>
+                </div>
+            </a>
+
+            <a  class="row-1" style="position: relative;top: -100px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">
+                <img style="position: relative;top:20px;left: 20px; width: 45px;height: 45px;" src="	https://code.visualstudio.com/assets/images/c-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 40px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;">C/C++</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;">Adds rich language <br>support for C/C++</p>
+                </div>
+            </a>
+
+            
+        
+            <a class="row-2" style="position: relative;top: -200px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter">
+                <img style="position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/images/jupyter-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 40px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;">Jupyter</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;">Language support for <br>Jupyter Notebooks</p>
+                </div>
+            </a>
+
+            <a class="row-2" style="position: relative;top: -200px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">
+                <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="	https://code.visualstudio.com/assets/images/gitlens-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 40px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;">GitLens</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;">Supercharge your Git <br> experience
+                </div>
+            </a>
+
+            <a class="row-2" style="position: relative;top: -200px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit">
+                <img style="position: relative;top:20px;left: 20px; width: 45px;height: 45px;" src="	https://code.visualstudio.com/assets/images/cs-dev-kit-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 32px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;">C# Dev Kit</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;">Powerful tools for your <br> C# environment</p>
+                </div>
+            </a>
+
+            <a class="row-3" style="position: relative;top: -300px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode">
+                <img style="position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/images/mongodb-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 40px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;">MongoDB</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;">Extension for the @MongoDB agent</p>
+                </div>
+            </a>
+
+            <a class="row-3" style="position: relative;top: -300px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azure-github-copilot">
+                <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="	https://code.visualstudio.com/assets/images/azure.png" alt="">
+                <div style="position: relative;top:8px;left: 40px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">GitHub Copilot for <br>Azure</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Streamline the process <br> of developing for <br>Azure
+                </div>
+            </a>
+
+            <a class="row-3" style="position: relative;top: -300px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 230px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">
+                <img style="position: relative;top:20px;left: 20px; width: 45px;height: 45px;" src="	https://code.visualstudio.com/assets/images/remote-extension.png" alt="">
+                <div style="position: relative;top:8px;left: 32px;">
+                    <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Remote Development</h3>
+                    <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Open folders in a <br>container on a remote <br> machine</p>
+                </div>
+            </a>
+        
+
+        </div>
+
+        
+    </div>
+    
+
+</div>
+
+
+<div>
+    <div style="display: flex;justify-content: space-around;position: relative;top: -400px;">
+        <div>
+            <p style="-webkit-text-fill-color: #c3d0e5; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+               <b> Code with extensions</b></p>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                Extensions let you customize VS Code and  <br> 
+                Copilot with AI-powered features grounded <br>
+                securely in your team's data and workflows. <br>
+                Grab one from the gallery and add it to <br>
+                chat like @azure, or <a style="-webkit-text-fill-color:#4daafc" href="https://code.visualstudio.com/docs/copilot/copilot-extensibility-overview">build your own Copilot <br>
+                extension</a> to power your team's unique <br> 
+                scenarios.
+    </p>
+    
+        </div>
+        <div style="display: grid;grid-template-columns: repeat(3,1fr);grid-template-rows: repeat(4,1fr);gap: 120px;">
+
+            <div style="display: flex;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-js.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">Javascript</p>
+            </div>
+            <div style="display: flex;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-ts.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">Tyescript</p>
+            </div>
+            <div style="display: flex;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-python.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">Python</p>
+            </div>
+            <div style="display: flex;position: relative;top: -120px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-cs.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">C#</p>
+            </div>
+            <div style="display: flex;position: relative;top: -120px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-cpp.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">C++</p>
+            </div>
+            <div style="display: flex;position: relative;top: -120px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-html.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">HTML</p>
+            </div>
+            <div style="display: flex;position: relative;top: -230px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-java.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">Java</p>
+            </div>
+            <div style="display: flex;position: relative;top: -230px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-json.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">JSON</p>
+            </div>
+            <div style="display: flex;position: relative;top: -230px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-php.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">PHP</p>
+            </div>
+            <div style="display: flex;position: relative;top: -340px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-markdown.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">Markdown</p>
+            </div>
+            <div style="display: flex;position: relative;top: -340px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-powershell.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">Powershell</p>
+            </div>
+            <div style="display: flex;position: relative;top: -340px;">
+                <img style="position: relative;top: 7px;" height="40px" width="40px" src="https://code.visualstudio.com/assets/home/language-yaml.png" alt="">
+                <p style="-webkit-text-fill-color: #9ba3b4;font-size: 18px;">YAML</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div style="display: flex;justify-content: space-around;position: relative;top: -520px;">
+    <div style="position: relative;top: -140px;">
+        <p style="-webkit-text-fill-color: #c3d0e5; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+           <b> Fully customizable </b><br></p>
+        <p style="-webkit-text-fill-color: #9fb1d1;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Customize your VS Code UI and layout so <br> that it fits your coding style. <br><br>
+            <a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/configure/themes">
+                Color themes</a> let you modify the colors in <br> VS Code's user interface to suit your <br>preferences and work environment.<br><br>
+            
+                <a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/configure/settings#_settings-sync">
+                    Settings Sync </a>
+                    enables you to share your <br>user settings across your VS Code instances <br>with the Settings Sync feature.<br><br>
+                        <a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/configure/themes">
+
+                        <a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/configure/profiles">
+                                Profiles </a> let you create sets of <br>customizations and quickly switch between <br>them or share them with others.
+</p>
+    </div>
+    <div>
+        <img style="position: relative;top: -100px;" height="380px" width="700px" src="https://code.visualstudio.com/assets/home/swimlane-customized.png" alt="">
+    </div>
+</div>
+
+
+
+
+
+
+<div style="display: flex;justify-content: space-around;position: relative;top: -420px;">
+    <div style="position: relative;top: -140px;">
+        <p style="-webkit-text-fill-color: #c3d0e5; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+           <b> Code anywhere </b><br></p>
+        <p style="-webkit-text-fill-color: #9fb1d1;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Code wherever you're most productive,<br> whether you're connected to the cloud, a <br> remote repository, or in the browser with <br> VS Code for the Web (vscode.dev). <br><br>
+            <a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/sourcecontrol/overview">
+                Built-in Source Control</a> empowers you with <br> Git support out-of-the-box. Many other <br> source control providers are available <br> through extensions.<br><br>
+            
+                <a style="-webkit-text-fill-color:#4daafc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://code.visualstudio.com/docs/remote/codespaces">
+                    GitHub Codespaces  </a>
+                    provides cloud- <br>powered development environments for <br> any activity - whether it's a long-term <br> project, or a short-term task like reviewing <br> a pull request.<br><br>
+
+</p>
+    </div>
+    <div>
+        <img style="position: relative;top: -100px;" height="380px" width="700px" src="https://code.visualstudio.com/assets/home/swimlane-anywhere.png" alt="">
+    </div>
+</div>
+
+
+<div style="position: relative;top: -500px;">
+    <p style="text-align: center; -webkit-text-fill-color: #c3d0e5; font-size: 30px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+       <b>Code with rich features</b> 
+       <p style="position: relative;top: -10px; text-align: center;-webkit-text-fill-color: #9fb1d1;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        There's a lot more to an editor. Whether it's using built-in features or <br> rich extensions, there's something for everyone.
+       </p>
+    </p>
+</div>
+
+<div style="margin: 40px; display: grid;grid-template-columns: repeat(4,1fr);grid-template-rows: repeat(2,1fr);position: relative;top: -160px;height: 100px;">
+
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -300px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/docs/terminal/basics">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-terminal.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;position: relative;">Integrated terminal <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Use your favorite shell whether <br> it's zsh, pwsh, or git bash, all<br> inside the editor.</p>
+
+        </div>
+    </a>
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -300px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/docs/debugtest/debugging">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-debug.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Run code <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Run and debug your code <br> without  leaving your editor. </p>
+
+        </div>
+    </a>
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -300px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/docs/sourcecontrol/overview">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-version-control.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Version control <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Built-in support for git and many <br> other source control providers. </p>
+
+        </div>
+    </a>
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -300px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/docs/debugtest/tasks">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-build-tasks.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Build tasks <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Run tools and analyze their results <br>from within VS Code. </p>
+
+        </div>
+    </a>
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -380px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/updates/v1_66#_local-history">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-local-history.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Local history <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Never lose your changes with <br>automatically tracked local <br> history. </p>
+
+        </div>
+    </a>
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -380px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/docs/sourcecontrol/overview">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-version-control.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Themes <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Your theme is an extension of <br>your personality. Add some flair <br>to your editor and add your <br> touch. </p>
+
+        </div>
+    </a>
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -380px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/docs/configure/accessibility/accessibility">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-accessibility.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Accessibility <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Optimized experience for screen <br>readers, high contrast themes, <br>and keyboard-only navigation. </p>
+
+        </div>
+    </a>
+    <a class="row-3" style="display: flex;flex-direction: column; position: relative;top: -380px; border: 1px solid rgba(255, 255, 255,0.12); margin-bottom: 100px; border-radius: 8px; width: 280px;height: 200px; background-color: rgba(255,255,255,0.04);display: flex;text-decoration: none;" href="https://code.visualstudio.com/docs/setup/vscode-web">
+        <div>
+        <img style="border-radius: 6px; position: relative;top:20px;left: 20px; width: 40px;height: 40px;" src="https://code.visualstudio.com/assets/icons/codicon-web.svg" alt="">
+        </div>
+        <div style="position: relative;top:20px;left: 20px;">
+            <h3 style="-webkit-text-fill-color:#c3d0e5 ;font-size: 15px;">Web support <br></h3>
+            <p style="-webkit-text-fill-color: #9fb1d1;font-size: 15px;">Whether you are on your phone,<br> tablet, or desktop, you can access <br> your code from anywhere. </p>
+
+        </div>
+    </a>
+
+</div>
+<div></div>
+  
+</body>
+</html>
